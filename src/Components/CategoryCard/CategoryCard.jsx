@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 
 export default function CategoryCard({ categoryy }) {
     const { id, image, title, category, text_color, primary_color, secondary_color } = categoryy || {}
-    console.log(text_color, primary_color, secondary_color)
     return (
         <Link to={`/category/${id}`}>
             <div>
