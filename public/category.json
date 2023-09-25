@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/cFHSZDk/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "price": 999.99,
+      "text_color": "#0052FF",
+      "primary_color": "#0052ff26",
+      "secondary_color": "#0052ff33",
+      "details": "Help provide access to clean and safe drinking water for children in underserved communities. Your contribution will fund water purification systems and sanitation facilities, improving the health and well-being of countless children."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/HnM1FDv/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "price": 499.99,
+      "text_color": "#FF444A",
+      "primary_color": "#ff444a26",
+      "secondary_color": "#ff444a33",
+      "details": "Support quality education initiatives to empower children and youth with knowledge and skills. Your donation will go toward providing educational resources, scholarships, and opportunities for a brighter future."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/ccGLZDQ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "price": 1999.99,
+      "text_color": "#79C23F",
+      "primary_color": "#79c23f26",
+      "secondary_color": "#79c23f33",
+      "details": "Contribute to a clothing drive to help those in need. Your support will provide gently used clothing to individuals and families facing economic hardships, ensuring they have warm and appropriate attire."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/G9Lq4T5/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "price": 299.99,
+      "text_color": "#F87147",
+      "primary_color": "#f8714726",
+      "secondary_color": "#f8714733",
+      "details": "Join the effort to provide nutritious meals to those experiencing hunger and food insecurity. Your contribution will help establish community food programs and ensure everyone has access to better food options."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/G9Lq4T5/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "price": 1499.99,
+      "text_color": "#F87147",
+      "primary_color": "#f8714726",
+      "secondary_color": "#f8714733",
+      "details": "Support the cause of eradicating food deserts and promoting healthier eating habits. Your donation will fund urban gardens and initiatives to make fresh and nutritious food accessible to all."
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/ccGLZDQ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "price": 799.99,
+      "text_color": "#79C23F",
+      "primary_color": "#79c23f26",
+      "secondary_color": "#79c23f33",
+      "details": "Extend a helping hand by donating gently used clothing to individuals experiencing hardship. Your support will ensure that those in need have access to clean and appropriate attire, boosting their self-esteem and well-being."
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/HnM1FDv/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "price": 399.99,
+      "text_color": "#FF444A",
+      "primary_color": "#ff444a26",
+      "secondary_color": "#ff444a33",
+      "details": "Invest in quality education to empower the next generation. Your contribution will support educational programs, teacher training, and the development of learning materials to ensure every child has access to a quality education."
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/cFHSZDk/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "price": 1499.99,
+      "text_color": "#0052FF",
+      "primary_color": "#0052ff26",
+      "secondary_color": "#0052ff33",
+      "details": "Help provide clean and safe drinking water to children in underserved communities. Your donation will support water purification projects, sanitation facilities, and hygiene education, improving health and saving lives."
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/cFHSZDk/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "price": 1999.99,
+      "text_color": "#0052FF",
+      "primary_color": "#0052ff26",
+      "secondary_color": "#0052ff33",
+      "details": "Support initiatives to provide clean drinking water to children in need. Your contribution will fund the construction of wells and water purification systems, ensuring access to safe and clean water sources."
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/HnM1FDv/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "price": 1999.99,
+      "text_color": "#FF444A",
+      "primary_color": "#ff444a26",
+      "secondary_color": "#ff444a33",
+      "details": "Empower children with the gift of education. Your support will enable access to quality learning materials, teacher training, and educational opportunities, ensuring that every child can reach their full potential."
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/ccGLZDQ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "price": 1299.99,
+      "text_color": "#79C23F",
+      "primary_color": "#79c23f26",
+      "secondary_color": "#79c23f33",
+      "details": "Contribute to a clothing drive to make a difference in the lives of individuals in need. Your donation will provide clothing to those facing adversity, offering warmth, dignity, and hope."
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/G9Lq4T5/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "price": 599.99,
+      "text_color": "#F87147",
+      "primary_color": "#f8714726",
+      "secondary_color": "#f8714733",
+      "details": "Join the movement for better access to nutritious food for all. Your contribution will support local food initiatives, food banks, and community programs to alleviate hunger and improve food security."
+    }
+  ]
+  
