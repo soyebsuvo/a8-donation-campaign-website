@@ -1,0 +1,12 @@
+nav a.active {
+    background: none !important;
+    color: #FF444A !important;
+    text-decoration: underline !important;
+}
+nav a:hover{
+    background: none !important;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 600;
+}
