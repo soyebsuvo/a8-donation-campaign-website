@@ -6,11 +6,14 @@ import { useEffect, useState } from "react";
 export default function Home() {
     const [display , setDisplay ] =useState([]);
     const [value , setValue ] = useState("");
-    const categories = useLoaderData();
+    const [categories , setCategories ] = useState([]);
     const handleValue = value => {
         setValue(value);
     }
     useEffect(()=>{
+        fetch("./category.json")
+        .then(res => res.json())
+        .then(data => setCategories(data));
         const filteredCategory = categories.filter(category=> category.category.toLowerCase() === value.toLowerCase());
         setDisplay(filteredCategory);
     },[categories , value])

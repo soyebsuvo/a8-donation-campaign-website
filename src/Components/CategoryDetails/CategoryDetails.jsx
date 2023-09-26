@@ -15,9 +15,9 @@ export default function CategoryDetails() {
         // console.log(getDataFromLocalStorage())
         setDatas(storedDatas)
         console.log(datas)
-        const isExist = datas.find(item => storedDatas.includes(item));
+        const isExist = storedDatas.find(item => item == params.id);
         console.log(isExist)
-        if (isExist == params.id) {
+        if (isExist) {
             swal("Error!", "Already Donated!", "error");
         } else {
             saveDataToLocalStorage(params)
@@ -26,8 +26,8 @@ export default function CategoryDetails() {
 
     }
     return (
-        <div className="pb-16">
-            <div className="relative h-[650px]">
+        <div className="md:pb-16 p-4 md:p-0">
+            <div className="relative h-[340px] md:h-[480px] lg:h-[650px]">
                 <img className="w-full py-10  h-full" src={image} alt="" />
                 <div className="absolute bottom-10 bg-slate-700 bg-opacity-60 w-full py-5 px-8">
                     <button onClick={handleDonateBtn} style={{ backgroundColor: `${text_color}` }} className="btn text-white">Donate ${price}</button>

@@ -14,8 +14,7 @@ import PieChartPage from "../PieChartPage/PieChartPage";
           children: [
             {
                 path : "/",
-                element : <Home></Home>,
-                loader : () => fetch(`./category.json`)
+                element : <Home></Home>
             },
             {
                 path : "/donations",

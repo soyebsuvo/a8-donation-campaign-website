@@ -22,7 +22,7 @@ export default function Header() {
                         </div>
                         <div>
                         <a className="btn btn-ghost normal-case text-xl justify-start">
-                            <img className="w-40" src="../../../public/Resources/Logo.png" alt="" />
+                            <img className="w-40" src="https://i.ibb.co/gVj4xYM/Logo.png" alt="" />
                         </a>
                         </div>
                         </div>
