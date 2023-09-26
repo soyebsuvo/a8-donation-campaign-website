@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { PieChart, Pie,  Cell } from 'recharts';
 import { getDataFromLocalStorage } from '../LocalStorage/LocalStorage';
 
@@ -33,7 +33,8 @@ export default function PieChartPage() {
       };
   return (
     <>
-    <PieChart width={1200} height={400}>
+    <div className='flex justify-center items-center'>
+    <PieChart width={300} height={300} >
           <Pie
             data={data}
             cx="50%"
@@ -49,9 +50,10 @@ export default function PieChartPage() {
             ))}
           </Pie>
         </PieChart>
+    </div>
       {/* </ResponsiveContainer> */}
       <div className='flex justify-center items-center gap-16'>
-        <div className='flex justify-center items-center gap-2'>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-2'>
                 <div>
                     <h2>Your Donation</h2>
                 </div>
@@ -59,7 +61,7 @@ export default function PieChartPage() {
 
                 </div>
         </div>
-        <div className='flex justify-center items-center gap-4'>
+        <div className='flex flex-col md:flex-row justify-center items-center gap-4'>
                 <div>
                     <h2>Total Donation</h2>
                 </div>

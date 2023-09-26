@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Donations from "../Donations/Donations";
 import CategoryDetails from "../CategoryDetails/CategoryDetails";
 import PieChartPage from "../PieChartPage/PieChartPage";
+// import PieChartSmall from "../PieChartSmall/PieChartSamll";
 
 
     const router = createBrowserRouter([
