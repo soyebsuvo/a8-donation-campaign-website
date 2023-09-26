@@ -8,7 +8,7 @@ export default function Header() {
     </>
     return (
         <nav>
-            <div className="py-2 shadow-lg">
+            <div className="py-2">
                 <div className="lg:flex justify-between">
                     <div className="">
                         <div className="flex justify-between items-center">

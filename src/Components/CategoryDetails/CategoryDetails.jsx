@@ -26,7 +26,7 @@ export default function CategoryDetails() {
 
     }
     return (
-        <div>
+        <div className="pb-16">
             <div className="relative h-[650px]">
                 <img className="w-full py-10  h-full" src={image} alt="" />
                 <div className="absolute bottom-10 bg-slate-700 bg-opacity-60 w-full py-5 px-8">

@@ -1,15 +1,14 @@
-import React from 'react'
-import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
+import  { PureComponent } from 'react';
+import { PieChart, Pie,  Cell } from 'recharts';
 
-export default function Statistic() {
-    const data = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-        { name: 'Group C', value: 300 },
-        { name: 'Group D', value: 200 },
-      ];
-      const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-      const RADIAN = Math.PI / 180;
+const data = [
+  { name: 'Group A', value: 10 },
+  { name: 'Group B', value: 90 },
+];
+
+const COLORS = ['#FF444A', '#00C49F'];
+
+const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
@@ -21,10 +20,14 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     </text>
   );
 };
-  return (
-    <div>
-      <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
+
+export default class Statistic extends PureComponent {
+  
+
+  render() {
+    return ( <>
+       {/* <ResponsiveContainer width="100%" height="100%"> */}
+        <PieChart width={1200} height={400}>
           <Pie
             data={data}
             cx="50%"
@@ -40,7 +43,26 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
             ))}
           </Pie>
         </PieChart>
-      </ResponsiveContainer>
-    </div>
-  )
+      {/* </ResponsiveContainer> */}
+      <div className='flex justify-center items-center gap-16'>
+        <div className='flex justify-center items-center gap-2'>
+                <div>
+                    <h2>Your Donation</h2>
+                </div>
+                <div className='w-16 h-4 rounded bg-[#FF444A]'>
+
+                </div>
+        </div>
+        <div className='flex justify-center items-center gap-4'>
+                <div>
+                    <h2>Total Donation</h2>
+                </div>
+                <div className='w-16 h-4 rounded bg-[#00C49F]'>
+
+                </div>
+        </div>
+      </div>
+    </>
+    );
+  }
 }

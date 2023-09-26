@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./banner.css"
+import PropTypes from 'prop-types';
+
 export default function Banner({handleValue}) {
     const [value , setValue ] = useState("");
     const handleChange = (e) => {
@@ -20,4 +22,7 @@ export default function Banner({handleValue}) {
 
     </div>
   )
+}
+Banner.propTypes = {
+    handleValue:PropTypes.func.isRequired
 }

@@ -3,7 +3,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Home/Home";
 import Donations from "../Donations/Donations";
 import CategoryDetails from "../CategoryDetails/CategoryDetails";
-import Statistic from "../Statistic/Statistic";
+import PieChartPage from "../PieChartPage/PieChartPage";
 
 
     const router = createBrowserRouter([
@@ -28,7 +28,7 @@ import Statistic from "../Statistic/Statistic";
             },
             {
                 path : "/statistics",
-                element : <Statistic></Statistic>
+                element : <PieChartPage></PieChartPage>
             }
           ]
         },

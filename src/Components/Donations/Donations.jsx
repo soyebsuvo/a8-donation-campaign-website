@@ -19,7 +19,7 @@ export default function Donations() {
 
     return (
         <>
-            {display.length > 0 ? <div className="grid grid-cols-2 gap-8 py-5">
+            {display.length > 0 ? <div className="grid grid-cols-1 w-72 mx-auto md:w-full md:grid-cols-2 gap-8 py-5">
                 {
                     storedData === true ? display.map(item => <Donation key={item.id} item={item}></Donation>) :
                         display.slice(0, 4).map(item => <Donation key={item.id} item={item}></Donation>)
@@ -29,7 +29,7 @@ export default function Donations() {
                     <h2 className="text-4xl">No Donation Here</h2>
                 </div>}
             {
-                isShow > 4 && <div className="flex justify-center py-3"><button onClick={() => setStoredData(!storedData)} className={`btn btn-primary ${storedData && "hidden"}`}>See All</button></div>
+                isShow > 4 && <div className="flex justify-center py-3"><button onClick={() => setStoredData(!storedData)} className={`btn bg-green-600 text-white ${storedData && "hidden"}`}>See All</button></div>
             }
 
         </>
